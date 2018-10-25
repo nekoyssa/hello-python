@@ -1,0 +1,5 @@
+print("I am Yssamin Abad")
+print("My spirit animal is Dragon")
+print("because it is stong")
+print("When not in school, I love to sleep")
+print("I dream of being a successful person in the future")
