@@ -1,7 +1,13 @@
-import sys
-num=sys.argv[1]
-num=float(num)
-x=0
+Input_number = input ("Ener a comma separated list of numbers:")
+print(type((Input_number)))
+
+user_input= Input_number.split(",")
+print(type((user_input)))
+
+index=0
 sum=0
-num=[x**2 for x in range(10)]
-    print("sum:",sum)
+
+for x in user_input:
+    sum += float (user_input[index])**2
+    index+= 1
+print ("Sum of squares:" , sum )
